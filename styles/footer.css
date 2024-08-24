@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Footer styling with retro video game vibe */
+.footer-copyright {
+  background-color: transparent;
+  color: #3bff3b; /* Neon green for that classic arcade feel */
+  padding: 20px 0;
+  font-family: 'Press Start 2P', cursive; /* Retro video game font */
+  text-align: center; /* Ensures content is centered */
+}
+
+.container {
+  text-align: center; /* Maintain center alignment */
+  max-width: 1200px; /* Maintain the width for layout consistency */
+  margin: auto; /* Center the content within the page */
+}
+
+/* Style for the footer text to maintain retro theme */
+.hm-footer-copyright p {
+  margin: 0;
+  font-size: 16px; /* Slightly larger for visibility in retro style */
+  color: #ffcd38; /* Gold color text to add a touch of old-school luxury */
+}
+
+/* Image styling to fit the retro theme */
+.hm-footer-copyright img {
+  height: 100px; /* Maintain image size */
+  width: 100px;
+  border-radius: 50%; /* Keeps the circular shape */
+  margin-top: 10px; /* Spacing above the image */
+  border: 4px solid #ffcd38; /* Gold border to emphasize the retro feel */
+}
+

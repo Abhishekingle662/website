@@ -1,0 +1,22 @@
+.container-p5 {
+    background-color: black; /* Sets the background of the container to black */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  canvas {
+    outline: none; /* Removes any focus outline that might appear */
+  }
+  
+  /* Optional: If using a div around the canvas, ensure it inherits these styles */
+  .p5-canvas-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#main {
+  background-color: transparent;
+  color: #3bff3b;
+  font-family: 'Press Start 2P', cursive;
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.major h2 {
+  font-family: 'Press Start 2P', cursive;
+  color: #ffcd38;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.box {
+  background-color: #222;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(255, 255, 0, 0.2);
+  border: 1px solid #ffcd38;
+  animation: glow 2s ease-in-out infinite;
+}
+
+.image.featured img {
+  width: 100%;
+  height: auto;
+}
+
+.box header h3 {
+  color: #ffcd38;
+  margin-top: 10px;
+}
+
+.box footer .actions {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.button.alt {
+  background-color: transparent;
+  color: #3bff3b;
+  border: 1px solid #3bff3b;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8em;
+  transition: all 0.3s ease;
+}
+
+.button.alt:hover {
+  background-color: #3bff3b;
+  color: #222;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(59, 255, 59, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(59, 255, 59, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(59, 255, 59, 0.5);
+  }
+}

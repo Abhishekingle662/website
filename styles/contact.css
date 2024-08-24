@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Overall contact section styling with retro vibes */
+.contact {
+  background-color: transparent;
+  color: #3bff3b; /* Neon green typical of old monitors */
+  padding: 60px 0;
+  font-family: 'Press Start 2P', cursive; /* Retro video game font */
+}
+
+/* Section heading with pixelated font */
+.section-heading h2 {
+  font-family: 'Press Start 2P', cursive;
+  color: #ffcd38; /* Gold color for a retro gaming look */
+  margin-bottom: 40px;
+}
+
+/* Container setup for the contact elements */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Flex layout for contact content */
+.contact-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Style for individual contact boxes */
+.single-contact-box {
+  background-color: #222;
+  animation: glow 2s ease-in-out infinite; /* Darker background for retro feel */
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(255, 255, 0, 0.2); /* Neon shadow for depth */
+  border: 1px solid #ffcd38; /* Golden border to match retro style */
+}
+
+
+
+
+
+/* Footer icons centered and styled with retro colors */
+.hm-foot-icon ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hm-foot-icon li a {
+  color: #ffcd38; /* Gold color for icons */
+  font-size: 20px;
+}
+
+.hm-foot-icon li a:hover {
+  color: #e43f5a; /* Red hover for a dynamic retro effect */
+}
