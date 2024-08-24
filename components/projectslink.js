@@ -48,7 +48,7 @@ const Portfolio = () => {
     {
       image: resume,
       title: "resume",
-      link: "https://drive.google.com/file/d/1uc2NSycHOMAodNrkX15Q2Rw2kQrR0XPq/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1aRyyhCwWR4ZrT3ShzjqLUEZfiuNoU-WS/view?usp=sharing",
       buttonText: "Take a look!",
       icon: "📄"
     },
