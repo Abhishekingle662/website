@@ -1,11 +1,13 @@
 
+import dynamic from 'next/dynamic';
 import About from '../components/about';
 import Education from '../components/education';
 import Contact from '../components/contact';
 import Footer from '../components/footer';
-import P5Sketch from '../components/P5Sketch';
 import WebLink from '../components/projectslink';
-import "../styles/App.css"; // Adjust the path as needed
+import "../styles/App.css";
+
+const P5Sketch = dynamic(() => import('../components/P5Sketch'), { ssr: false });
 
 export default function Home() {
   return (
@@ -23,4 +25,3 @@ export default function Home() {
     </>
   );
 }
-

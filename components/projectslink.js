@@ -15,7 +15,14 @@ const PortfolioItem = ({ image, title, link, buttonText, icon }) => (
   <div className="col-4 col-6-medium col-12-small">
     <section className="box">
       <div className="image featured">
-        <Image src={image} alt="project" width={300} height={200} sizes="responsive" />
+      <Image 
+        src={image} 
+        alt="project" 
+        width={300} 
+        height={200} 
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+      />
+
       </div>
       <header>
         <h3>{title} {icon && <i className={icon}></i>}</h3>
