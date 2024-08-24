@@ -1,6 +1,8 @@
+
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import '../styles/project.css';
 import githubImage from '../assets/giphy.webp';
 import resume from '../assets/resume.gif';
@@ -13,7 +15,7 @@ const PortfolioItem = ({ image, title, link, buttonText, icon }) => (
   <div className="col-4 col-6-medium col-12-small">
     <section className="box">
       <div className="image featured">
-        <img src={image} alt="project" />
+        <Image src={image} alt="project" width={300} height={200} sizes="responsive" />
       </div>
       <header>
         <h3>{title} {icon && <i className={icon}></i>}</h3>
@@ -30,7 +32,7 @@ const PortfolioItem = ({ image, title, link, buttonText, icon }) => (
 const Portfolio = () => {
   const portfolioItems = [
     {
-      image: githubImage ,
+      image: githubImage,
       title: "Github",
       link: "https://github.com/Abhishekingle662",
       buttonText: "Explore?",
