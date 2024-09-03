@@ -4,7 +4,6 @@
 import React from 'react';
 import Image from 'next/image';
 import '../styles/about.css';
-import photo from '../assets/luffy.gif';
 
 function About() {
   return (
@@ -13,14 +12,7 @@ function About() {
         <div className="row">
           <div className="col-12 col-md-6 col-lg-4">
             <section className="first">
-              <Image 
-                className="profilePic img-fluid" 
-                src={photo} 
-                alt='profile photo'
-                width={150}
-                height={150}
-                sizes="responsive"
-              />
+            <Image src="/luffy.gif" alt="Luffy" width={200} height={200}  style={{ borderRadius: '50%' }} />
               <header>
                 <h2>Abhishek Ingle</h2>
               </header>
