@@ -4,7 +4,7 @@
 import React from 'react';
 import Image from 'next/image';
 import '../styles/about.css';
-import photo from '../assets/photo.jpg';
+import photo from '../assets/luffy.gif';
 
 function About() {
   return (
